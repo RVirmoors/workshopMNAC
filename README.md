@@ -2,7 +2,7 @@
  
 with [Grigore](https://rvirmoors.github.io/) & [Dorin](https://proiectb.org/)
 
-join us at [ITPMA @ UNATC](https://itpma.notion.site/)
+join us at [ITPMA @ UNATC](https://itpma.notion.site/)!
 
 ## instructions
 
@@ -10,5 +10,5 @@ join us at [ITPMA @ UNATC](https://itpma.notion.site/)
 2. in Max, go to File > Package Manager > install [CNMAT Externals](https://github.com/CNMAT/CNMAT-Externs) and [FluCoMa](https://www.flucoma.org/download/)
 3. run main.maxpat
 
-to interact with your phone, use [OSCHook](https://apkcombo.com/oschook/com.hollyhook.oscHook/) (Android) or [Syntien](https://apps.apple.com/us/app/syntien/id1203153534) (iOS)
+to interact with your phone, install & run [OSCHook](https://apkcombo.com/oschook/com.hollyhook.oscHook/) (Android) or [Syntien](https://apps.apple.com/us/app/syntien/id1203153534) (iOS)
 
