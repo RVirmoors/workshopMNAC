@@ -1,4 +1,4 @@
-# workshop ITPMA @ MNAC
+# workshop MNAC // 0623
  
 with [Grigore](https://rvirmoors.github.io/) & [Dorin](https://proiectb.org/)
 
