@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1122.0, 272.0, 110.0, 480.0 ],
+		"rect" : [ 1122.0, 272.0, 183.0, 461.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -67,6 +67,8 @@
 					"candicane2" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"candicane3" : [ 0.815686274509804, 0.423529411764706, 0.52156862745098, 1.0 ],
 					"candycane" : 3,
+					"contdata" : 1,
+					"ghostbar" : 5,
 					"id" : "obj-14",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -79,7 +81,8 @@
 					"setminmax" : [ 0.0, 1.0 ],
 					"signed" : 1,
 					"size" : 3,
-					"slidercolor" : [ 0.702269, 0.811747, 0.303388, 1.0 ]
+					"slidercolor" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
+					"thickness" : 3
 				}
 
 			}
