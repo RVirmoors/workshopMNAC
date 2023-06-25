@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 150.0, 85.0, 1744.0, 969.0 ],
+		"rect" : [ 150.0, 85.0, 1485.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -264,8 +264,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1032.0, 336.5, 111.0, 22.0 ],
-					"text" : "predictpoint accelin"
+					"patching_rect" : [ 1032.0, 336.5, 118.0, 22.0 ],
+					"text" : "predictpoint accelin2"
 				}
 
 			}
@@ -276,8 +276,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1155.0, 336.5, 131.0, 22.0 ],
-					"text" : "fit acceldata notelabels"
+					"patching_rect" : [ 1155.0, 336.5, 144.0, 22.0 ],
+					"text" : "fit acceldata2 notelabels2"
 				}
 
 			}
@@ -395,8 +395,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 503.0, 440.0, 112.0, 22.0 ],
-					"text" : "addpoint $1 accelin"
+					"patching_rect" : [ 503.0, 440.0, 119.0, 22.0 ],
+					"text" : "addpoint $1 accelin2"
 				}
 
 			}
@@ -407,8 +407,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 187.0, 412.5, 148.0, 22.0 ],
-					"text" : "buffer~ accelin @samps 3"
+					"patching_rect" : [ 187.0, 412.5, 154.0, 22.0 ],
+					"text" : "buffer~ accelin2 @samps 3"
 				}
 
 			}
@@ -419,8 +419,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "buffer" ],
-					"patching_rect" : [ 187.0, 375.0, 186.0, 22.0 ],
-					"text" : "fluid.list2buf @destination accelin"
+					"patching_rect" : [ 182.0, 375.0, 193.0, 22.0 ],
+					"text" : "fluid.list2buf @destination accelin2"
 				}
 
 			}
@@ -431,8 +431,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 657.0, 485.0, 140.0, 22.0 ],
-					"text" : "fluid.labelset~ notelabels"
+					"patching_rect" : [ 657.0, 485.0, 147.0, 22.0 ],
+					"text" : "fluid.labelset~ notelabels2"
 				}
 
 			}
@@ -443,8 +443,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 503.0, 485.0, 135.0, 22.0 ],
-					"text" : "fluid.dataset~ acceldata"
+					"patching_rect" : [ 503.0, 485.0, 142.0, 22.0 ],
+					"text" : "fluid.dataset~ acceldata2"
 				}
 
 			}
@@ -457,7 +457,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1062.0, 396.0, 174.0, 50.0 ],
+					"patching_rect" : [ 1062.0, 396.0, 176.0, 50.0 ],
 					"text" : "fluid.mlpclassifier~ @activation 1 @learnrate 0.05 @maxiter 1000 @batchsize 3"
 				}
 
